@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "609149164778",
+    "firebase_url": "https://blakno-9232e.firebaseio.com",
+    "project_id": "blakno-9232e",
+    "storage_bucket": "blakno-9232e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609149164778:android:21d20381ce2969cd",
+        "android_client_info": {
+          "package_name": "com.tushar.blakno"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609149164778-posq7rc4f0f17nsg3oe2nrma1a0t0v83.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tushar.blakno",
+            "certificate_hash": "33565afd8320d5c5ae27c03eb88cc46fd0e1d884"
+          }
+        },
+        {
+          "client_id": "609149164778-j6glar7erspt4i9e8rldb9dcgkauq2r2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgeNQWeLTjaCneoWqdiMixhUMixd4RVnU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

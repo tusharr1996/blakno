@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please click on Ads to contribute towards development."
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Fullscreen ad"
+            android:textColor="@color/white"
+            android:id="@+id/btn_fullscreen_ad"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Video ad"
+            android:textColor="@color/white"
+            android:id="@+id/btn_video"
+            android:layout_weight="1"
+
+            />
+    </LinearLayout>
+    <com.google.android.gms.ads.NativeExpressAdView
+        android:id="@+id/nativ1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="330x300"
+        android:layout_gravity="center"
+        ads:adUnitId="@string/native1">
+    </com.google.android.gms.ads.NativeExpressAdView>
+
+    <com.google.android.gms.ads.NativeExpressAdView
+        android:id="@+id/nativ2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="330x300"
+        android:layout_gravity="center"
+        ads:adUnitId="@string/native2">
+    </com.google.android.gms.ads.NativeExpressAdView>
+
+
+
+    <!--<com.google.android.gms.ads.AdView-->
+        <!--android:id="@+id/adView1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--ads:adSize="BANNER"-->
+        <!--ads:adUnitId="@string/banner_1"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_gravity="center">-->
+    <!--</com.google.android.gms.ads.AdView>-->
+
+    <!--<com.google.android.gms.ads.AdView-->
+        <!--android:id="@+id/adView2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--ads:adSize="BANNER"-->
+        <!--ads:adUnitId="@string/banner_2"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_gravity="center">-->
+    <!--</com.google.android.gms.ads.AdView>-->
+
+    <!--<com.google.android.gms.ads.AdView-->
+        <!--android:id="@+id/adView3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--ads:adSize="BANNER"-->
+        <!--ads:adUnitId="@string/banner_3"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_gravity="center">-->
+    <!--</com.google.android.gms.ads.AdView>-->
+
+    <!--<com.google.android.gms.ads.AdView-->
+        <!--android:id="@+id/adView4"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--ads:adSize="BANNER"-->
+        <!--ads:adUnitId="@string/banner_4"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_gravity="center">-->
+    <!--</com.google.android.gms.ads.AdView>-->
+
+
+
+</LinearLayout>
+    </ScrollView>

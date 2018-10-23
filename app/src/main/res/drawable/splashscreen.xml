@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+
+    <item android:drawable="@color/home_bg"/>
+    <item
+        android:width="70dp"
+        android:height="70dp"
+        android:gravity="center">
+        <bitmap
+            android:gravity="center"
+
+            android:src="@drawable/home_icon"/>
+    </item>
+</layer-list>

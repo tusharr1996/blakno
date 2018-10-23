@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tushar.blakno.Artsfrag"
+    >
+
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Retry"
+        android:textColor="@color/white"
+        android:id="@+id/retry"
+        android:visibility="invisible"/>
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <!--<GridView-->
+        <!--android:id="@+id/usage_example_gridview"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:columnWidth="100dp"-->
+        <!--android:drawSelectorOnTop="true"-->
+        <!--android:gravity="center"-->
+        <!--android:numColumns="auto_fit"-->
+        <!--android:stretchMode="columnWidth"-->
+        <!--android:verticalSpacing="5dp"-->
+        <!--android:focusable="true"-->
+        <!--android:clickable="true"-->
+        <!--android:stackFromBottom="false"-->
+        <!--android:layout_weight="0.92" />-->
+
+
+
+
+
+    <GridView
+        android:id="@+id/usage_example_gridview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+
+        android:paddingTop="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="58dp"
+
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+
+
+        />
+
+
+
+
+</FrameLayout>

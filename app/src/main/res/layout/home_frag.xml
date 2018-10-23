@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_bg"
+    tools:context="com.tushar.blakno.Homefrag">
+
+    <ScrollView android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="58dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/home_icon"
+        android:id="@+id/imageView"
+        android:paddingTop="50dp"
+        android:layout_gravity="center"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLEAN MINIMAL WALLPAPERS"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center"
+            android:paddingTop="30sp"
+            android:textSize="23sp"
+            android:textStyle="bold"/>
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="15dp"-->
+            <!--android:text="Get the most Clean and Minimalistic wallpapers, to Customize your device to look them apart from ordinary. Black wallpapers saves battery and Easy to set wallpapers directly from the App itself."-->
+            <!--android:textColor="@color/white"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textSize="15sp" />-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@string/desc"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="15sp" />
+
+
+
+        <!--<RelativeLayout-->
+            <!--android:layout_gravity="center"-->
+            <!--android:paddingTop="50dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:backgroundTint="@color/colorAccent"-->
+                <!--android:text="Share"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:id="@+id/sharelink"-->
+                <!--/>-->
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="30dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/contri"
+                android:backgroundTint="@color/colorAccent"
+                android:text="Contribute to Development"
+                android:textColor="@color/white"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

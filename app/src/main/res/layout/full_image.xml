@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:id="@+id/fullscreen_image"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/AVLoadingIndicatorView"
+        android:visibility="visible"
+        app:indicatorName="BallClipRotateMultipleIndicator"
+        app:indicatorColor="#ffffff"
+        />
+</LinearLayout>
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        fab:menu_labels_textColor="#FFFFFF"
+        fab:menu_labels_textSize="14sp"
+        fab:menu_labels_cornerRadius="3dp"
+        fab:menu_labels_colorNormal="@color/home_bg"
+        fab:menu_labels_colorPressed="@color/darkbgcolor"
+        fab:menu_labels_colorRipple="#25272e"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_singleLine="true"
+        fab:menu_icon="@drawable/ic_add_black_24dp"
+        fab:menu_labels_showAnimation="@anim/jump_from_down"
+        fab:menu_labels_hideAnimation="@anim/jump_to_down"
+        fab:menu_animationDelayPerItem="0"
+        fab:menu_backgroundColor="#CC000000"
+        fab:menu_colorNormal="@color/white"
+        fab:menu_colorPressed="#cccccc"
+        fab:menu_colorRipple="#999999">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabfav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_favorite_black_24dp"
+            fab:fab_size="mini"
+            fab:fab_label="Add to Favourites"
+            style="@style/MenuButtonsStyle"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabshr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_share_variant_black_24dp"
+            fab:fab_size="mini"
+            fab:fab_label="Share"
+            style="@style/MenuButtonsStyle"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabaply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_done_black_24dp"
+            fab:fab_size="mini"
+            fab:fab_label="Apply"
+            style="@style/MenuButtonsStyle"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabdwld"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_file_download_black_24dp"
+            fab:fab_size="mini"
+            fab:fab_label="Download"
+            style="@style/MenuButtonsStyle"/>
+
+
+
+
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+</RelativeLayout>

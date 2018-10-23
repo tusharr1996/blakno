@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/ic_home_white_24dp"
+        title="Home"
+        inActiveColor="#FFFFFF"
+        activeColor="#5f97fb"
+        barColorWhenSelected="#23242a"
+        />
+    <tab
+        id="@+id/tab_arts"
+        icon="@drawable/ic_filter_hdr_white_24dp"
+        title="Arts"
+        inActiveColor="#FFFFFF"
+        activeColor="#5f97fb"
+        barColorWhenSelected="#23242a"/>
+    <tab
+        id="@+id/tab_fav"
+        icon="@drawable/ic_favorite_black_24dp"
+        title="Favourites"
+        inActiveColor="#FFFFFF"
+        activeColor="#5f97fb"
+        barColorWhenSelected="#23242a"/>
+    <tab
+        id="@+id/tab_about"
+        icon="@drawable/ic_perm_identity_white_24dp"
+        title="About"
+        inActiveColor="#FFFFFF"
+        activeColor="#5f97fb"
+        barColorWhenSelected="#23242a"/>
+
+</tabs>
